@@ -12,6 +12,7 @@ import { environment } from 'src/environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidenavModule } from './modules/sidenav/sidenav.module';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [AppComponent],
@@ -25,7 +26,8 @@ import { SidenavModule } from './modules/sidenav/sidenav.module';
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [{ provide: FirestoreSettingsToken, useValue: {} }], // https://github.com/angular/angularfire2/issues/1993
   bootstrap: [AppComponent]
