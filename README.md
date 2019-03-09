@@ -8,6 +8,6 @@
 💬 Slack: https://bit.ly/ajonp-slack-invite  
 🐦 Twitter: https://bit.ly/ajonp-twitter
 
-# Firebase AuthZ and AuthN using Firebase UI
+# Angular PWA to Play Store
 
 Lesson coming soon...
