@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ajonp.ajsbooks",
+      "sha256_cert_fingerprints": [
+        "7B:FC:98:0A:F9:4E:A9:CA:A7:16:57:9B:7E:1A:37:9A:DA:83:2C:3E:AD:40:AB:85:95:89:10:C7:34:4F:A9:F3"
+      ]
+    }
+  }
+]
